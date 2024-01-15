@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import creditCard from "../assets/images/icons/credit-card2.svg"
 import headPhone from "../assets/images/icons/headphones-icon.svg"
 export default function CallToAction(){
@@ -12,14 +13,14 @@ export default function CallToAction(){
                 </div>
                 <div className="action-bottem">
                     <div className="action-btn-div">
-                    <a className="action-btn1">
+                    <Link className="action-btn1">
                         <p>Unlock Your card</p>
                         <img src={creditCard} alt="credit-card" />
-                    </a>
-                    <a className="action-btn2">
+                    </Link>
+                    <Link className="action-btn2">
                         <p>Unlock Your card</p>
                         <img src={headPhone} alt="headphone" />
-                    </a>
+                    </Link>
 
                     </div>
                 </div>

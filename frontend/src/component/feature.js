@@ -2,6 +2,7 @@ import arrow from "../assets/images/icons/arrow-right2.svg"
 import world from "../assets/images/icons/world-icon.svg"
 import keyIcon from "../assets/images/icons/key-icon.svg"
 import lockIcon from "../assets/images/icons/lock-icon.svg"
+import { Link } from "react-router-dom"
 export default function Feature(){
 
     return(
@@ -10,12 +11,12 @@ export default function Feature(){
                 <div className="feature-top">
                     <h1>Elevating Card Programs with Cutting-Edge Technology</h1>
                     <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <a href="https://www.google.com">
+                    <Link>
                         <p>
                         Compare all Pro feature
                         </p>
                         <img src={arrow} alt="arrow" />
-                    </a>
+                    </Link>
                 </div>
                 <div className="feature-bottem">
                     <div className="feature-bottem-box">

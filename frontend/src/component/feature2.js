@@ -4,6 +4,8 @@ import stick from "../assets/images/icons/stick-icon.svg"
 import stars from "../assets/images/icons/starts-icon.svg"
 import creditCard from "../assets/images/icons/creditcard-icon.svg"
 import loading from "../assets/images/icons/loadingbar-icon.svg"
+import zoom from "../assets/images/icons/zoom-icon.svg"
+import { Link } from "react-router-dom"
 
 export default function Feature2(){
 
@@ -13,12 +15,12 @@ export default function Feature2(){
             <div className="feature-2-top">
             <h1>Elevating Card Programs with Cutting-Edge Technology</h1>
                     <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <a href="https://www.google.com">
+                <Link>
                         <p>
                         Compare all Pro feature
                         </p>
                         <img src={arrow} alt="arrow" />
-                    </a>
+                    </Link>
             </div>
             <div className="feature-2-bottem">
                 <div className="feature-2-bottem-left">
@@ -32,7 +34,10 @@ export default function Feature2(){
                         <img className="start-icon" src={stars} alt="stars" />
                         <div className="feature-2-right-card">
                             <div className="card-top">
+                                <div className="card-top-head">
                             <h3>Spending</h3>
+                                 <img src={zoom} alt="zoom" />         
+                                </div>
                             <div>
                                 <img src={creditCard} alt="" />
                                 <small> 9349 visa card</small>

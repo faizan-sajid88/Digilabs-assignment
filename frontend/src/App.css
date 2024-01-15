@@ -155,7 +155,7 @@ margin: 5px;
   width: 80%;
   margin: 30px auto;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
   .hero-top h1{
     font-size: 2.7rem;
     }
@@ -264,8 +264,8 @@ width: 100%;
 }
 .start-icon{
   position: absolute;
-  top: 20px;
-  left: 0px;
+  top: 25px;
+  left: 25px;
 
 }
 .feature-2-right-card{
@@ -301,6 +301,11 @@ width: 100%;
   align-items: center;
   justify-content: space-between;
 }
+.card-top-head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 @media only screen and (max-width: 1130px) {
   .feature-2-bottem{
     flex-direction: column;
@@ -317,7 +322,7 @@ width: 80%;
     width: 80%;
   }
   .stick-icon{
-    width: 100px;
+    width: 150px;
   }
 .loading-img{
   width: 100%;
@@ -326,7 +331,7 @@ width: 80%;
   width: 100%;
 }
 .feature-2-right-card{
-  width: auto;
+  width: 100%;
   height:auto;
 }
 .feature-bottem{
@@ -344,13 +349,34 @@ width: 80%;
   .card-bottem div small{
     font-size: 0.7rem;
   }
+  .feature-2-bottem-left,.feature-2-bottem-right{
+    width: 90%;
+   
+  }
+  .stick-icon{
+    width: 120px;
+  }
 }
-@media only screen and (max-width: 500px) {
- .stick-icon{
-  width: 50px;
-  top: 50px;
-  left: 50px;
+@media only screen and (max-width: 550px) {
+  .feature-2-bottem-right{
+  padding: 10px;
  }
+ .start-icon{
+  width: 50px ;
+ }
+ .feature-2-right-card{
+
+ }
+ .stick-icon{
+  width: 100px;
+}
+
+}
+@media only screen and (max-width: 450px) {
+  .feature-2-bottem-right{
+  padding: 0px;
+ }
+
 }
 /* details */
 .details-container{
